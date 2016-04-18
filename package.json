@@ -6,6 +6,7 @@
   "license": "MIT",
   "homepage": "http://www.angular2starterkit.com",
   "scripts": {
+    "postinstall": "npm run typings",
     "reinstall": "npm run clean:dist && rimraf node_modules && npm install",
     "clean": "rimraf dist logs",
     "clean:dist": "rimraf dist",

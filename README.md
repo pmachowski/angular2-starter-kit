@@ -23,8 +23,11 @@
 
 # Quick start
 ```bash
-# install npm & typings dependencies
-npm install && npm run typings
+# install npm global dependencies as necessary
+npm install -g typescript typings
+
+# install npm local dependencies
+npm install
 
 # build and run the production server
 npm start
