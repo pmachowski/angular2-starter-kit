@@ -1,7 +1,7 @@
 {
   "name": "angular2-starter-kit",
-  "script": "./dist/private/serve.js",
-  "watch": "./dist/private",
+  "script": "./dist/server/index.js",
+  "watch": "./dist",
   "log_date_format": "YYYY-MM-DD HH:mm Z",
   "error_file": "./logs/errors.log",
   "out_file": "./logs/output.log",

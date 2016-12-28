@@ -1,0 +1,10 @@
+
+.pros li {
+  list-style: none;
+}
+
+.pros li:before {
+  content: "•";
+  color: #1f8dd6;
+  padding-right: 7px;
+}
